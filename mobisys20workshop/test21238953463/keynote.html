@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>HealthDL: MobiSys2020 Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+		<style type="text/css">
+			.alt>strong, b {
+				color: rgb(49, 49, 49);
+				font-weight: 600;
+			}
+		</style>
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="logo">MobiSys2020 Workshop</a>
+					<!-- Navigation -->
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="cfp.html">CFP</a>
+						<a href="submissions.html">Submissions</a>
+						<a href="program.html">Technical Program</a>
+						<a href="keynote.html">Keynote</a>
+						<a href="panelist.html">Panel</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper" style="padding-top: 12px;">
+				<div class="inner">
+					<span class="image fit"><img src="images/banner.jpeg" alt="" /></span>
+					<!-- <header class="align-center">
+						<h2 style="margin: auto;">HealthDL</h2>
+						<h3>Deep Learning for Wellbeing Applications Leveraging Mobile Devices and Edge Computing</h3>
+					</header> -->
+
+				<!-- Content -->
+					<!-- <h2 id="content">Sample Content</h2> -->
+					<!-- <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p> -->
+					<div class="row">
+						<div class="8u 12u$(small)">
+							<!-- <h3>Sem turpis amet semper</h3> -->
+
+							<h2> Keynote Talk <strong style="font-size:medium;">- 10:00 - 11:00, June 19th, 2020 </strong></h2> 
+							
+							<div style="text-align:justify;">
+								<span class="image left" style="padding: 10px; padding-left: 0; padding-top: 0;"><img class="img-responsive" src="images/kumar_keynote2.jpg" alt="" /></span>
+
+								
+								<b>Keynote Title</b><br>
+								Sensitivity, Specificity, Generalizability, and Reusability Aspirations for Machine Learning (ML) Models in mHealth <br><br>
+
+								<b>Keynote Speaker</b><br>
+								Santosh Kumar (University of Memphis) <br><br>
+
+								<b>Keynote Abstract</b><br>
+								Mobile sensor big data collected from smartphones, smartwatches, fitness trackers, and other wearables can be mined for signatures 
+								(called mHealth biomarkers) of subtle changes in daily behaviors (e.g., mobility, gait, sleep, etc.) and/or physiology (e.g., heart 
+								function, breathing, sweating, etc.). Clinical adoption of these mHealth biomarkers can lead to potent temporally-precise interventions, 
+								enabling patients to initiate and sustain the healthy lifestyle choices and treatment regimes that are necessary to prevent and/or 
+								successfully manage the growing burden of multiple chronic conditions. <br>
+								However, for any new biomarker to be successfully used for clinical diagnosis or treatment, its clinical utility must be established. 
+								mHealth biomarkers are usually derived by training a machine learning (ML) algorithm on mobile sensor data. The published models differ 
+								in feature construction (domain-derived features fed to a supervised ML model vs. data-driven features discovered by a deep learning (DL) 
+								model), data collection setting (lab vs. field), data selection and preparation (covering all twenty-four hours of the day vs. awake hours, 
+								vs. only when performing certain tasks), data labeling (retrospective self-reported aggregate labels vs. time-synchronized labels from 
+								first-person video), data size and diversity (e.g., number of participants, gender, ethnicity, age group, number of days, hours per day, 
+								etc.), experiment design (cross-validation vs. cross-subject validation), and performance (e.g., accuracy, F1 score, confusion matrix, 
+								AUC, etc.). As a result, there is wide diversity in published models on their potential for reusability, generalizability, and eventual 
+								clinical utility.<br>
+								This talk will describe an aspirational framework for specificity, sensitivity, generalizability, and reusability of mHealth biomarkers 
+								with some concrete performance targets so that they have a higher chance of widespread clinical utility. It will draw upon the 
+								presenter’s decade-long transdisciplinary research experience in developing machine learning models to detect a wide variety of 
+								daily behaviors such as stress, speaking, smoking, and brushing from wearable physiological and inertial sensors. <br>
+								The talk will use the analogy of five nines (i.e., 99.999%) paradigm in the area of service-level agreements to quantify high-availability. 
+								Similar to how these managed services are expected to be available 24-7-365, with the downtime limited to 5.26 minutes per year, we can 
+								express the performance requirements of mHealth biomarkers that are expected to detect subtle signs of health and behaviour deterioration 
+								anytime and anywhere. Five nines guarantee for the detection of a health event (e.g., fall, stress) translates to one false positive every 
+								100 person-days, if the model runs on 1,000 minutes of sensor data collected each day. Achieving five nines to claim the detection of 
+								non-event (e.g., smoking abstinence) is even more challenging, as there are several other failure scenarios for missing an event, in 
+								addition to model failure, such as the non-wearing of sensors when performing the event of interest, poor data quality, mismatch of model 
+								to where (on the body) and how the sensor is worn (e.g., smartwatch on non-dominant hand), battery failure, and data loss. To achieve 
+								generalizability, the model performance must be achieved on independent test data that covers all aspects of daily life, without any 
+								data selection. Finally, for the model to be used by others for real-life, the model should not only be accessible to the community, 
+								it should also be possible to train and test the model on different datasets by independent non-ML-expert researchers.<br><br>
+
+								<b>Bio</b><br>
+								Santosh Kumar is the Lillian & Morrie Moss Chair of Excellence Professor of Computer Science at The University of Memphis. He is also 
+								Director of NIH Center of Excellence for Mobile Sensor Data-to-Knowledge (MD2K). His research interests include machine learning (ML) 
+								models for inference of human health and daily behaviors from wearable sensors, open-source mHealth software platforms, and behavioral 
+								privacy. His research has resulted in ML models for detecting stress, speaking, smoking, craving, cocaine use, brushing, and flossing 
+								from physiological and inertial sensors. Open-source software developed by MD2K include mCerebrum for smartphones and Cerebral Cortex 
+								for the cloud that have been adopted in scientific studies by clinical and behavioral science researchers in 11 states across USA.
+								
+
+							</div>
+
+						</div>
+						<div class="4u$ 12u$(small)">
+							<h2>Important Dates</h2>
+							<ul><b>
+								<li><s>Submission Deadline: April 30th, 2020.</s></li>
+								<li><s>Acceptance Notice: May 15th, 2020.</s></li>
+								<li><s>Camera-ready Deadline: May 18th, 2020.</s></li>
+								<li>Workshop Date: June 19th, 2020.</li></b>
+							</ul>
+							
+							<h2>Workshop Chairs</h2>
+
+							<div>
+								<span class="image left" style="padding-bottom: 0; "><img class="img-responsive" src="images/mooi_1.jpg" alt="" /></span>
+								<p style="margin: 0; padding-top: 1em;"><b> <a href="http://www.cse.lehigh.edu/~chuah/"> Mooi Choo Chuah </a></b></p>
+								<p style="font-size: 0.9em;"> Computer Science and Engineering Department, Lehigh University </p>
+							</div> 
+							<br>
+							<div>
+								<span class="image left" style="padding-bottom: 0; "><img class="img-responsive" src="images/yingying_1.jpg" alt="" /></span> 
+								<p style="margin: 0; padding-top: 0.6em;"><b> <a href="http://www.winlab.rutgers.edu/~yychen/"> Yingying (Jennifer) Chen </a></b></p>
+								<p style="font-size: 0.9em;"> Department of Electrical and Computer Engineering, Rutgers University </p>
+							</div>
+							<br>
+							<h3>Publicity Chair</h3>
+							<div>
+								<span class="image left" style="padding-bottom: 0; "><img class="img-responsive" src="images/xiaonan.jpg" alt="" /></span> 
+								<p style="margin: 0; padding-top: 0em;"><b> <a href="http://pages.iu.edu/~xg6/"> Xiaonan Guo</a></b></p>
+								<p style="font-size: 0.9em;"> Department of Computer, Information and Technology Indiana University-Purdue University Indianapolis </p>
+							</div>
+						</div>
+
+					</div>
+				<hr class="major" />
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
